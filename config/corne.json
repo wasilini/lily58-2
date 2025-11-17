@@ -50,7 +50,7 @@
       ]
     }
   },
-   "sensors": [
+  "sensors": [
     {
       "ref": "left_encoder",
       "name": "encoder_left",
@@ -66,5 +66,4 @@
       "label": "RIGHT_ENCODER"
     }
   ]
- 
 }
