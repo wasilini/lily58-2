@@ -7,7 +7,9 @@
 // dt-formatter: multilineIntegerCellsIndent = "reindent"
 // dt-formatter: multilineListCommaStyle = "leading"
 
-
+&sk {
+  /delete-property/ ignore-modifiers;
+};
 
 / {
   combos {
