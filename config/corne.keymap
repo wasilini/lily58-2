@@ -139,12 +139,7 @@
       #sensor-binding-cells = <0>;
       bindings = <&kp C_VOL_UP>, <&kp C_VOL_DN>;
     };
-    rgbknob: rgb_encoder {
-      compatible = "zmk,behavior-sensor-rotate-var";
-      label = "ENCODER_RGB";
-      #sensor-binding-cells = <2>;
-      bindings = <&rgb_ug>, <&rgb_ug>;
-    };
+    
   };
 
   conditional_layers {
